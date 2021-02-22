@@ -21,7 +21,7 @@ import announcementRouter from "../routes/announcement-router.js";
 import actRouter from "../routes/act-router.js";
 const __dirname = path.resolve();
 const app = express();
-
+const port = process.env.PORT || 3000
 aapp.use(express.static(path.join(__dirname, '../build')))
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../build'))
