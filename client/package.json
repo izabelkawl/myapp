@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^7.2.1",
     "ajax": "0.0.4",
     "axios": "^0.19.2",
+    "babel-jest": "^26.6.3",
     "bootstrap": "^4.5.3",
     "classnames": "^2.2.6",
     "emailjs-com": "^2.6.4",
@@ -65,7 +66,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-
-  }
+  "devDependencies": {}
 }
